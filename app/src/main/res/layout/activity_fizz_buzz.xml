@@ -14,14 +14,16 @@
     android:layout_height="wrap_content"
     android:text="Submit"/>
 <ScrollView
+  android:id="@+id/scroll_view"
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:app="http://schemas.android.com/apk/res-auto"
   xmlns:tools="http://schemas.android.com/tools"
   android:layout_width="match_parent"
   android:layout_height="match_parent"
-  tools:context="edu.cnm.deepdive.fizzbuzzandroid.FizzBuzzActivity">
+  tools:context="edu.cnm.deepdive.fizzbuzzandroid.FizzBuzzActivity"
+  android:orientation="horizontal">
 
-  <TextView
+  <!--<TextView
     android:id="@+id/text_view"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -29,7 +31,7 @@
     app:layout_constraintBottom_toBottomOf="parent"
     app:layout_constraintLeft_toLeftOf="parent"
     app:layout_constraintRight_toRightOf="parent"
-    app:layout_constraintTop_toTopOf="parent"/>
+    app:layout_constraintTop_toTopOf="parent"/>-->
 
 </ScrollView>
 </LinearLayout>
